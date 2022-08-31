@@ -2,7 +2,7 @@
   "name": "mountain-keeper",
   "version": "1.1.0",
   "description": "I am an independent entity for the welfare of society",
-  "homepage": "https://kshitijzasya.github.io/mountain_keeper/*",
+  "homepage": "https://kshitijzasya.github.io/mountain_keeper/",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.3",
