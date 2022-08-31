@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/mountain_keeper/static/css/main.21d3f8e1.chunk.css",
+    "main.js": "/mountain_keeper/static/js/main.cb27b85a.chunk.js",
+    "main.js.map": "/mountain_keeper/static/js/main.cb27b85a.chunk.js.map",
+    "runtime-main.js": "/mountain_keeper/static/js/runtime-main.48ad1df4.js",
+    "runtime-main.js.map": "/mountain_keeper/static/js/runtime-main.48ad1df4.js.map",
+    "static/css/2.c9ffc6f5.chunk.css": "/mountain_keeper/static/css/2.c9ffc6f5.chunk.css",
+    "static/js/2.b4979c23.chunk.js": "/mountain_keeper/static/js/2.b4979c23.chunk.js",
+    "static/js/2.b4979c23.chunk.js.map": "/mountain_keeper/static/js/2.b4979c23.chunk.js.map",
+    "index.html": "/mountain_keeper/index.html",
+    "static/css/2.c9ffc6f5.chunk.css.map": "/mountain_keeper/static/css/2.c9ffc6f5.chunk.css.map",
+    "static/css/main.21d3f8e1.chunk.css.map": "/mountain_keeper/static/css/main.21d3f8e1.chunk.css.map",
+    "static/js/2.b4979c23.chunk.js.LICENSE.txt": "/mountain_keeper/static/js/2.b4979c23.chunk.js.LICENSE.txt",
+    "static/media/angular.jpg": "/mountain_keeper/static/media/angular.b5045666.jpg",
+    "static/media/bootstrap.jpg": "/mountain_keeper/static/media/bootstrap.bd712487.jpg",
+    "static/media/component-info-2.png": "/mountain_keeper/static/media/component-info-2.5212a3a6.png",
+    "static/media/component-info-card.png": "/mountain_keeper/static/media/component-info-card.d19a4464.png",
+    "static/media/component-menu.png": "/mountain_keeper/static/media/component-menu.418bd949.png",
+    "static/media/component-profile-card.png": "/mountain_keeper/static/media/component-profile-card.52a3ee76.png",
+    "static/media/documentation.png": "/mountain_keeper/static/media/documentation.014ebef5.png",
+    "static/media/all.min.css": "/mountain_keeper/static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/landing.jpg": "/mountain_keeper/static/media/landing.8150f1b0.jpg",
+    "static/media/login.jpg": "/mountain_keeper/static/media/login.9c1ecd37.jpg",
+    "static/media/pattern_react.png": "/mountain_keeper/static/media/pattern_react.01996482.png",
+    "static/media/profile.jpg": "/mountain_keeper/static/media/profile.c62f8a5b.jpg",
+    "static/media/react.jpg": "/mountain_keeper/static/media/react.0e8c9066.jpg",
+    "static/media/register_bg_2.png": "/mountain_keeper/static/media/register_bg_2.4f2cb0ac.png",
+    "static/media/sketch.jpg": "/mountain_keeper/static/media/sketch.a6af780a.jpg",
+    "static/media/team-1-800x800.jpg": "/mountain_keeper/static/media/team-1-800x800.fa5a7ac2.jpg",
+    "static/media/team-2-800x800.jpg": "/mountain_keeper/static/media/team-2-800x800.3e08ef14.jpg",
+    "static/media/team-3-800x800.jpg": "/mountain_keeper/static/media/team-3-800x800.19201574.jpg",
+    "static/media/team-4-470x470.png": "/mountain_keeper/static/media/team-4-470x470.4ef82ef4.png",
+    "static/media/vue.jpg": "/mountain_keeper/static/media/vue.43bd93a8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48ad1df4.js",
+    "static/css/2.c9ffc6f5.chunk.css",
+    "static/js/2.b4979c23.chunk.js",
+    "static/css/main.21d3f8e1.chunk.css",
+    "static/js/main.cb27b85a.chunk.js"
+  ]
+}
