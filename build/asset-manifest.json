@@ -1,26 +1,31 @@
 {
   "files": {
     "main.css": "/mountain_keeper/static/css/main.21d3f8e1.chunk.css",
-    "main.js": "/mountain_keeper/static/js/main.5122af62.chunk.js",
-    "main.js.map": "/mountain_keeper/static/js/main.5122af62.chunk.js.map",
+    "main.js": "/mountain_keeper/static/js/main.3505c8b8.chunk.js",
+    "main.js.map": "/mountain_keeper/static/js/main.3505c8b8.chunk.js.map",
     "runtime-main.js": "/mountain_keeper/static/js/runtime-main.48ad1df4.js",
     "runtime-main.js.map": "/mountain_keeper/static/js/runtime-main.48ad1df4.js.map",
     "static/css/2.c9ffc6f5.chunk.css": "/mountain_keeper/static/css/2.c9ffc6f5.chunk.css",
-    "static/js/2.eb734b91.chunk.js": "/mountain_keeper/static/js/2.eb734b91.chunk.js",
-    "static/js/2.eb734b91.chunk.js.map": "/mountain_keeper/static/js/2.eb734b91.chunk.js.map",
+    "static/js/2.e5cb1bb0.chunk.js": "/mountain_keeper/static/js/2.e5cb1bb0.chunk.js",
+    "static/js/2.e5cb1bb0.chunk.js.map": "/mountain_keeper/static/js/2.e5cb1bb0.chunk.js.map",
     "index.html": "/mountain_keeper/index.html",
     "static/css/2.c9ffc6f5.chunk.css.map": "/mountain_keeper/static/css/2.c9ffc6f5.chunk.css.map",
     "static/css/main.21d3f8e1.chunk.css.map": "/mountain_keeper/static/css/main.21d3f8e1.chunk.css.map",
-    "static/js/2.eb734b91.chunk.js.LICENSE.txt": "/mountain_keeper/static/js/2.eb734b91.chunk.js.LICENSE.txt",
+    "static/js/2.e5cb1bb0.chunk.js.LICENSE.txt": "/mountain_keeper/static/js/2.e5cb1bb0.chunk.js.LICENSE.txt",
     "static/media/all.min.css": "/mountain_keeper/static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/kitchen-blue.jpg": "/mountain_keeper/static/media/kitchen-blue.c0953554.jpg",
+    "static/media/kitchen.jpg": "/mountain_keeper/static/media/kitchen.450a1ff4.jpg",
     "static/media/register_bg_2.png": "/mountain_keeper/static/media/register_bg_2.4f2cb0ac.png",
-    "static/media/ships.7473b331.jpg": "/mountain_keeper/static/media/ships.7473b331.jpg"
+    "static/media/ships.7473b331.jpg": "/mountain_keeper/static/media/ships.7473b331.jpg",
+    "static/media/sink.jpg": "/mountain_keeper/static/media/sink.337d683f.jpg",
+    "static/media/team-2-800x800.jpg": "/mountain_keeper/static/media/team-2-800x800.3e08ef14.jpg",
+    "static/media/warranty.jpg": "/mountain_keeper/static/media/warranty.e95c9357.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.48ad1df4.js",
     "static/css/2.c9ffc6f5.chunk.css",
-    "static/js/2.eb734b91.chunk.js",
+    "static/js/2.e5cb1bb0.chunk.js",
     "static/css/main.21d3f8e1.chunk.css",
-    "static/js/main.5122af62.chunk.js"
+    "static/js/main.3505c8b8.chunk.js"
   ]
 }
