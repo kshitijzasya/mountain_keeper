@@ -6,11 +6,14 @@ import Gallery from "components/static/gallery";
 import Ships from "../assets/img/ships.jpg";
 
 // components
-
 import Navbar from "components/Navbars/AuthNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
+import Schedule from "components/Modals/schedule";
+
 export default function Landing() {
+  const [showSchedule, setShowScheduleModal] = React.useState(false);
+
   return (
     <>
       <Navbar transparent />
@@ -130,10 +133,12 @@ export default function Landing() {
                   good to go. Just make sure you enable them first via
                   JavaScript.
                 </p>
-                <Link to="/" className="font-bold text-blueGray-700 mt-8">
-                  Check Notus React!
-                </Link>
+                <button onClick={e => setShowScheduleModal(old => !old)} className="font-bold text-blueGray-700 mt-8 cursor-pointer">
+                  Schedule
+                </button>
+                <Schedule close={e => setShowScheduleModal(e)} active={showSchedule}/>
               </div>
+              
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
@@ -168,8 +173,6 @@ export default function Landing() {
             </div>
           </div>
         </section>
-
-        
 
         <section className="relative py-20">
           <div
@@ -261,11 +264,11 @@ export default function Landing() {
             </div>
           </div>
         </section>
-
         <AboutUs />
         <ContactForm />
       </main>
       <Footer />
+      
     </>
   );
 }
