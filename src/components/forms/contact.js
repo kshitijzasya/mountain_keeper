@@ -43,7 +43,7 @@ function FormData(props) {
 
         //Sending email
         emailjs.send(email.YOUR_SERVICE_ID, email.YOUR_TEMPLATE_ID, params, email.YOUR_PUBLIC_KEY)
-          .then((result) => {console.log('result', result)
+          .then((result) => {
               if(result.status === 200) {
                 setShowAlert(true);
                 setAlertMessage("Email sent successfully.")
