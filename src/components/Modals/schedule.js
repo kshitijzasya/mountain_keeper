@@ -10,14 +10,15 @@ export default function Modal({close = _ => {}, active = false}) {
   const wrapper = useRef(null);
 
   useEffect(function() {
-    wrapper.current.classList.toggle('transit')
+  wrapper.current.classList.toggle('transit');
+    
   }, [active])
 
   return (
     <>
           <div
             ref={wrapper}
-            className="justify-start items-center flex overflow-x-hidden overflow-y-auto inset-0 z-50 transit outline-none focus:outline-none wrapper"
+            className="justify-start items-center flex overflow-x-hidden overflow-y-auto inset-0 z-50 outline-none focus:outline-none wrapper"
           >
             <div className="relative w-auto max-w-3xl">
               {/*content*/}
@@ -25,7 +26,7 @@ export default function Modal({close = _ => {}, active = false}) {
                 {/*header*/}
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
-                  <table class="border-collapse border border-slate-400" style={{width: '100%', 'table-layout': 'fixed'}}>
+                  <table className="border-collapse border border-slate-400" style={{width: '100%', tableLayout: 'fixed'}}>
                     <thead>
                       <tr>
                         <th>Day</th>
@@ -34,7 +35,7 @@ export default function Modal({close = _ => {}, active = false}) {
                     </thead>
                     <tbody>
                       {
-                        timing.map(day => <tr><td>{day}</td><td className="text-center" width="70%">{day !== 'Sun' ? '10:00 am – 07:00 pm' : 'Closed'}</td></tr>)
+                        timing.map((index, day) => <tr key={index}><td>{day}</td><td className="text-center" width="70%">{day !== 'Sun' ? '10:00 am – 07:00 pm' : 'Closed'}</td></tr>)
                       }
                     </tbody>
                   </table>
