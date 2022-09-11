@@ -1,8 +1,8 @@
 import React, { useRef, useEffect } from "react";
 import './transition.css';
 
-const timing = [
-  'Sun', 'Mon', 'Tue', 'wed', 'Thu', 'Fri', 'Sat'
+const days = [
+  'Mon', 'Tue', 'wed', 'Thu', 'Fri', 'Sat', 'Sun'
 ]
 
 export default function Modal({close = _ => {}, active = false}) {
@@ -18,7 +18,7 @@ export default function Modal({close = _ => {}, active = false}) {
     <>
           <div
             ref={wrapper}
-            className="justify-start items-center flex overflow-x-hidden overflow-y-auto inset-0 z-50 outline-none focus:outline-none wrapper"
+            className="justify-start items-center flex overflow-x-hidden transit overflow-y-auto inset-0 z-50 outline-none focus:outline-none wrapper"
           >
             <div className="relative w-auto max-w-3xl">
               {/*content*/}
@@ -35,7 +35,7 @@ export default function Modal({close = _ => {}, active = false}) {
                     </thead>
                     <tbody>
                       {
-                        timing.map((index, day) => <tr key={index}><td>{day}</td><td className="text-center" width="70%">{day !== 'Sun' ? '10:00 am – 07:00 pm' : 'Closed'}</td></tr>)
+                        days.map((day, index) => <tr key={index}><td className="text-center">{day}</td><td className="text-center" width="70%">{day !== 'Sun' ? '10:00 am – 07:00 pm' : 'Closed'}</td></tr>)
                       }
                     </tbody>
                   </table>
