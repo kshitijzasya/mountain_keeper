@@ -19,7 +19,10 @@ function FormData(props) {
 
     const closeAlert = _ => setShowAlert(false) && setAlertMessage('');
 
-    
+    function disableForm() {
+        document.querySelectorAll('input, textarea, button[type="submit"]').forEach(elm => elm.disabled = true);
+    }
+
     function sendEmail(e){
         e.preventDefault();
         setShowProgress(true);
@@ -40,21 +43,20 @@ function FormData(props) {
             user_email: form.current.user_email.value,
             user_message: form.current.user_message.value
         }
-        console.log('event', {e,'sdf' :this})
 
         //Sending email
-        // emailjs.send(email.YOUR_SERVICE_ID, email.YOUR_TEMPLATE_ID, params, email.YOUR_PUBLIC_KEY)
-        //   .then((result) => {
-        //       if(result.status === 200) {
-        //         setShowAlert(true);
-        //         setAlertMessage("Email sent successfully.")
-        //       }
-        //       setShowProgress(false);
-        //       form.current.reset();
-        //   }, (error) => {
-        //     console.table(error)
-        //       console.log(error.text);
-        //   });
+        emailjs.send(email.YOUR_SERVICE_ID, email.YOUR_TEMPLATE_ID, params, email.YOUR_PUBLIC_KEY)
+          .then((result) => {
+              if(result.status === 200) {
+                setShowAlert(true);
+                setAlertMessage("Email sent successfully.")
+              }
+              setShowProgress(false);
+              form.current.reset();
+          }, (error) => {
+            console.table(error)
+              console.log(error.text);
+          });
       };
 
 
@@ -81,12 +83,15 @@ function FormData(props) {
                         Join Our Team
                         </h4>
                         <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
-                        If you're interested in one of our open positions, start by applying here and attaching your resume.
+                        If you're interested in one of our open positions, start by applying here.
                         </p>
                         <p>
                             <strong>Apply Now</strong>
+                            <a onClick={disableForm} className="text-slate-800 cursor-pointer" 
+                            href="mailto:kshtjsharma68@gmail.com?subject=Resume attachment" 
+                            style={{float: 'right', textDecoration: 'underline'}}><small>Click here to send mail with resume</small></a>
                         </p>
-                        <form ref={form} enctype="multipart/form-data" onSubmit={sendEmail}>
+                        <form ref={form}  onSubmit={sendEmail}>
                             <div className="relative w-full mb-3 mt-8">
                             <label
                                 className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
@@ -150,15 +155,6 @@ function FormData(props) {
                                 name="user_message"
                                 required
                             />
-                            </div>
-                            <div className="relative w-full mb-3">
-                            <label
-                                className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                                htmlFor="email"
-                            >
-                                Attach Resume
-                            </label>
-                                <input type="file" name="resume"/>
                             </div>
                             <div className="text-center mt-6">
                             <button
