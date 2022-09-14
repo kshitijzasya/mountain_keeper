@@ -2,9 +2,10 @@
   "name": "mountain-keeper",
   "version": "1.1.0",
   "description": "I am an independent entity for the welfare of society",
-  "repository": "https://github.com/creativetimofficial/notus-react",
+  "homepage": "https://kshitijzasya.github.io/mountain_keeper/",
   "license": "MIT",
   "dependencies": {
+    "@emailjs/browser": "^3.7.0",
     "@fortawesome/fontawesome-free": "5.15.3",
     "@popperjs/core": "2.9.1",
     "@tailwindcss/forms": "0.2.1",
@@ -26,7 +27,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm start",
-    "build:tailwind": "tailwind build src/assets/styles/index.css -o src/assets/styles/tailwind.css"
+    "build:tailwind": "tailwind build src/assets/styles/index.css -o src/assets/styles/tailwind.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,5 +48,8 @@
   },
   "optionalDependencies": {
     "typescript": "4.2.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

@@ -1,5 +1,5 @@
 import creds from "../config/auth.json";
-import Session from './session';
+// import Session from './session';
 
 const dataToAuthenticate = JSON.parse(creds).auth;
 const submitForm = (form, pass, callback) => {

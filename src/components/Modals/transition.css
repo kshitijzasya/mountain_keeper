@@ -1,0 +1,8 @@
+.wrapper {
+    height: 0px;
+    transition: height 4s;;
+}
+
+.wrapper.transit {
+    height: 250px;
+}
