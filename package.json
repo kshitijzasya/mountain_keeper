@@ -4,6 +4,9 @@
   "description": "I am an independent entity for the welfare of society",
   "homepage": "https://kshitijzasya.github.io/mountain_keeper/",
   "license": "MIT",
+  "engines": {
+    "node" : "16.17.0"
+  },
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@fortawesome/fontawesome-free": "5.15.3",
