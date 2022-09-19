@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mountain_keeper/static/css/main.e6db9211.chunk.css",
-    "main.js": "/mountain_keeper/static/js/main.2cdf9043.chunk.js",
-    "main.js.map": "/mountain_keeper/static/js/main.2cdf9043.chunk.js.map",
+    "main.js": "/mountain_keeper/static/js/main.735f023a.chunk.js",
+    "main.js.map": "/mountain_keeper/static/js/main.735f023a.chunk.js.map",
     "runtime-main.js": "/mountain_keeper/static/js/runtime-main.48ad1df4.js",
     "runtime-main.js.map": "/mountain_keeper/static/js/runtime-main.48ad1df4.js.map",
     "static/css/2.c9ffc6f5.chunk.css": "/mountain_keeper/static/css/2.c9ffc6f5.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.c9ffc6f5.chunk.css",
     "static/js/2.a9a05f9a.chunk.js",
     "static/css/main.e6db9211.chunk.css",
-    "static/js/main.2cdf9043.chunk.js"
+    "static/js/main.735f023a.chunk.js"
   ]
 }
