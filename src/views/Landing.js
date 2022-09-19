@@ -73,10 +73,10 @@ export default function Landing() {
                       <i className="fas fa-award"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Awarded Agency</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
+                    {/* <p className="mt-2 mb-4 text-blueGray-500">
                       Divide details about your product or agency work into
                       parts. A paragraph describing a feature will be enough.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
@@ -87,11 +87,11 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
                       <i className="fas fa-retweet"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Free Revisions</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
+                    <h6 className="text-xl font-semibold">Best Quality</h6>
+                    {/* <p className="mt-2 mb-4 text-blueGray-500">
                       Keep you user engaged by providing meaningful information.
                       Remember that by this time, the user is curious.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
@@ -103,10 +103,10 @@ export default function Landing() {
                       <i className="fas fa-fingerprint"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Verified Company</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
+                    {/* <p className="mt-2 mb-4 text-blueGray-500">
                       Write a few lines about each one. A paragraph describing a
                       feature will be enough. Keep you user engaged!
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
@@ -123,16 +123,14 @@ export default function Landing() {
                   Working with us is a pleasure
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                  Don't let your uses guess by attaching tooltips and popoves to
-                  any element. Just make sure you enable them first via
-                  JavaScript.
+                  Some customer review, maybe.
                 </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+                {/* <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
                   The kit comes with three pre-built pages to help you get
                   started faster. You can change the text and images and you're
                   good to go. Just make sure you enable them first via
                   JavaScript.
-                </p>
+                </p> */}
                 <button onClick={e => setShowScheduleModal(old => !old)} className="font-bold text-blueGray-700 mt-8 cursor-pointer">
                   Schedule
                 </button>
@@ -162,11 +160,11 @@ export default function Landing() {
                     <h4 className="text-xl font-bold text-white">
                       Top Notch Services
                     </h4>
-                    <p className="text-md font-light mt-2 text-white">
+                    {/* <p className="text-md font-light mt-2 text-white">
                       The Arctic Ocean freezes every winter and much of the
                       sea-ice then thaws every summer, and that process will
                       continue whatever happens.
-                    </p>
+                    </p> */}
                   </blockquote>
                 </div>
               </div>
