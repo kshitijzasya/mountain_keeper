@@ -1,5 +1,5 @@
 image: node
- 
+  
 pages:
   stage: deploy
   cache:
