@@ -5,7 +5,7 @@
   "homepage": "https://kshitijzasya.github.io/mountain_keeper/",
   "license": "MIT",
   "engines": {
-    "node" : "16.17.0"
+    "node": "16.17.0"
   },
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
@@ -22,6 +22,7 @@
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.3",
+    "react-smart-slider": "^0.1.2",
     "tailwindcss": "2.0.4"
   },
   "scripts": {

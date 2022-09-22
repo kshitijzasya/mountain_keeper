@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ContactForm from "../components/forms/contact";
 import AboutUs from "components/static/aboutus";
-import Gallery from "components/static/gallery";
+import Slider from "components/static/slider";
 import Ships from "../assets/img/ships.jpg";
 
 // components
@@ -13,6 +13,21 @@ import Schedule from "components/Modals/schedule";
 
 export default function Landing() {
   const [showSchedule, setShowScheduleModal] = React.useState(false);
+
+  const slidesArray = [
+    {
+        url: require("assets/img/warranty.jpg").default,
+      },
+      {
+        url: require("assets/img/sink.jpg").default,
+      },
+      {
+        url: require("assets/img/kitchen.jpg").default,
+      },
+      {
+        url: require("assets/img/kitchen-blue.jpg").default
+      }
+  ];
 
   return (
     <>
@@ -111,8 +126,12 @@ export default function Landing() {
                 </div>
               </div>
             </div>
-
-            <Gallery />
+{/* 
+            <Gallery /> */}
+            <Slider 
+              slides={slidesArray}
+            />
+            
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
